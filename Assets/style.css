@@ -6,6 +6,12 @@ body {
   background-color:#E4F1F6;
 }
 
+#bannerimage {
+  width: 100%;
+  background-image: url("file:///Users/liliahernandez/Desktop/challenge-2/Assets/images/image-1.jpg");
+  height: 405px;
+}
+
 header,
 footer {
   width: 100%;
