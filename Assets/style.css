@@ -1,0 +1,34 @@
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+body {
+  background-color:#E4F1F6;
+}
+
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color:#E4F1F6;
+  background-color:#67AFCB;
+}
+.medium-box{
+  width: 100px;
+  height: 300px;
+}
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+
+.highlighted-text {
+  font-weight: bolder;
+}
+
+
+#contact-section {
+  background-color: #f0ead6;
+}
