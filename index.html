@@ -1,49 +1,81 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
-
+<html>
   <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="./assets/style.css">
-    <title>lhern222 Bootcamp</title>
-    
-
+    <title>lhern Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
-
   <body>
+    <!-- Header -->
     <header>
-      <!-- Headers -->
-      <div clss="container">
-        <h1>lhern222</h1>
-        <a href="index.html">Home</a>
-        <a href="About.html">About Me</a>
-        <a href="Work.html">Work</a>
-        <a href="Contact.html">Contact Info</a>
-      
+      <h1>Welcome to My Portfolio!</h1>
+      <p>
+        Hi! Thank you for taking the time to look around!
+      </p>
     </header>
 
-    <section>
-      <!-- Image -->
-      <img src="file:///Users/liliahernandez/Desktop/challenge-2/Assets/images/image-1.jpg" width="50%">
+    <!-- Navbar -->
+    <nav>
+      <a href="#About Me">About Me</a>
+      <a href="#Projects">Projects</a>
+      <a href="#Contact Me">Contact Me</a>
+      <a href="#">Resume</a>
+    </nav>
 
-      <!-- Paragraph -->
-      <h3>About Me</h3>
-      <p>Welcome to my page here you will learn a little about me. </p>
-      <h3>Work</h3>
-      <p>Current and previous work</p>
-    
-       <!-- Unordered list -->
-       <ul>
-        <li>This is list item one</li>
-        <li>This is list item two</li>
-        <li>This is list item three</li>
-      </ul>
+    <!-- Body -->
+    <main>
+      <!-- Sidebar -->
+      <aside>
+        <div class="card">
+          <p> Hi, Im just starting my coding journey. 
+            This page will be update with new projects every so often.</p>
+          <div style="height: 70px;"></div>
+        </div>
+        <div class="card">
+          <h2>Group Project</h2>
+          <div style="height:50px;"></div>
+            <a href="https://lomax12436.github.io/Super-Team-Project/">
+              <img 
+                id="imgpro"
+                src="dnd-project.png"
+              />
+            </a>
+        </div>
+        <div class="card">
+          <h3>
+            <a href="#">lhern222@ucr.edu</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact Me</a>
+            <a href="#">Resume</a>
+          </h3>
+          <div style="height:50px;"></div>
+        </div>
+      </aside>
+      <!-- Product Cards -->
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card" id="About Me">
+            <h2>About Me</h2>
+            <div style="height:50px;"></div>
+          </div>
+          <div class="card" id="Projects">
+            <h2>Projects</h2>
+            <div style="height:525px;"></div>
+          </div>
+        </div>
+        <div class="rightcolumn">
+          <div class="card" id="Contact Me">
+            <h2>Contact Me</h2>
+            
+            <div style="height:50px;"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer>
 
-      <!-- Link -->
-      <h3>Contact</h3>
-      <a href="mailto: lhern222@ucr.edu">E-mail</a>
-      <a href="https://github.com/lhern222/challenge-2.git">Github</a>
-    </section>
+    </footer>
   </body>
-
 </html>
